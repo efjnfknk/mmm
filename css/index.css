@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+clearfix:after {
+  content: "";
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+  clear: both;
+  display: block;
+}
+
+.view {
+  position: relative;
+}
+
+header {
+  width: 100%;
+  height: 50px;
+  background-color: #ff841d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 15px;
+}
+
+header .logo1 img {
+  max-width: 185px;
+  height: 25px;
+}
+
+header .login {
+  max-width: 33px;
+  height: 33px;
+}
+
+form .form {
+  padding: 10px;
+  height: 50px;
+  position: relative;
+  border-bottom: 1px solid #ccc;
+}
+
+form .form .form_title input {
+  width: 90%;
+  font-size: 16px;
+  padding-left: 5%;
+  background-color: #f1f1f1;
+  height: 30px;
+  border-radius: 15px;
+  border: none;
+}
+
+form .form .form_content input {
+  width: 63px;
+  line-height: 30px;
+  background-color: #ff841d;
+  border-radius: 15px;
+  font-size: 16px;
+  color: #fff;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: none;
+}
+
+.banner .btn-group {
+  width: 100%;
+  float: left;
+}
+
+.banner .btn-group > button {
+  width: 100%;
+  text-align: left;
+}
+
+.banner .btn-group .caret {
+  float: right;
+}
+
+footer {
+  margin-top: 10px;
+}
+
+footer .foots {
+  line-height: 30px;
+  text-align: center;
+  border-top: 1px solid #ccc;
+}
+
+footer .foots > a {
+  border-right: 1px solid #ccc;
+  font-size: 14px;
+  float: left;
+  width: 33.3%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+footer .foots > a img {
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+footer .foots > a:nth-child(3) {
+  border-right: none;
+}
+
+footer .footer1 {
+  border-top: 1px solid #ccc;
+  margin-top: 30px;
+  padding: 10px 0;
+}
+
+footer .footer1 p {
+  text-align: center;
+  font-size: 13px;
+}
+/*# sourceMappingURL=index.css.map */
