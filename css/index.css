@@ -25,6 +25,14 @@ input {
   outline: none;
 }
 
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
 clearfix:after {
   content: "";
   height: 0;
@@ -94,22 +102,42 @@ form .form .form_content input {
   border: none;
 }
 
-.banner .btn-group {
-  width: 100%;
-  float: left;
+.banner {
+  padding: 5px 5px 24px 5px;
+  background-color: #f3f3f3;
 }
 
-.banner .btn-group > button {
+.banner .dropdown .btn-default {
+  font-size: 16px;
+  height: 40px;
+  font-weight: 600;
   width: 100%;
   text-align: left;
+  background-color: #f1f1f1;
 }
 
-.banner .btn-group .caret {
+.banner .dropdown .btn-default .caret {
   float: right;
 }
 
+.banner .dropdown .dropdown-menu {
+  width: 100%;
+}
+
+.banner .dropdown .dropdown-menu tbody {
+  width: 100%;
+}
+
+.banner .dropdown .dropdown-menu tbody tr td {
+  width: 3%;
+  text-align: center;
+  height: 40px;
+  border-left: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
 footer {
-  margin-top: 10px;
+  background-color: #f3f3f3;
 }
 
 footer .foots {

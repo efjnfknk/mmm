@@ -20,6 +20,12 @@
     border: none;
     outline: none;
   }
+  .fl{
+      float: left;
+  }
+  .fr{
+      float: right;
+  }
   clearfix:after {
     content: "";
     height: 0;
@@ -85,22 +91,45 @@ form{
         }
     }
 }
-
 .banner{
-    .btn-group{
+    padding: 5px 5px 24px 5px;
+    background-color: #f3f3f3;
+   .dropdown{
+    .btn-default{
+        font-size: 16px;
+        height: 40px;
+    font-weight: 600;
         width: 100%;
-        float: left;
-        >button{
-            width: 100%;
-            text-align: left;
-        }
+        text-align: left;
+        background-color: #f1f1f1;
         .caret{
             float: right;
         }
     }
+    .dropdown-menu{
+        width: 100%; 
+        tbody{
+        width: 100%;
+            tr{
+                td{
+                    width: 3%;
+                    text-align: center;
+                    height: 40px;
+                    border-left: 1px solid #ccc;
+                    border-bottom: 1px solid #ccc;
+                   
+                    }
+            }
+           
+        }
+        
+    }
+   }
+
 }
+
 footer{
-    margin-top: 10px;
+    background-color: #f3f3f3;
  .foots{
       line-height: 30px;
       text-align: center;
@@ -130,5 +159,5 @@ footer{
          text-align: center;
         font-size: 13px;
      }
-  }
- }
+    }
+}
